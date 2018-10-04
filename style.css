@@ -1,0 +1,12 @@
+body {
+	font-size: 32px;
+	background-color: yellow;
+	text-align: center;
+	padding: 30px;
+}
+
+h1 {
+	font-weight: bold;
+	border: 2px solid black;
+}
+
