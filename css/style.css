@@ -1,0 +1,273 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #DCDCDC;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #808000;	
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.main-part {
+	display: flex;
+}
+.sidebar {
+	width: 170px;
+}
+
+.sidebar .logo-img {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.sidebar .logo-img img {
+	width: 100%;
+	height: auto;
+}
+
+.sidebar .aside-block {
+	width: 130px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.sidebar .aside-block .title-block {
+	margin-bottom: 10px;
+	padding-inline-start: 0px;
+}
+
+.sidebar .aside-block .title-block .name {
+	color: 	#696969;
+	padding-bottom: 5px;
+}
+
+.sidebar .aside-block .title-block .line {
+	width: 120px;
+	margin: 0 auto;
+	border-bottom: 1px solid #808080;
+}
+
+.sidebar .aside-block .title-block li {
+    list-style-type: none;
+    padding-top: 5px;
+ }
+
+.main-block {
+	width: 100%;
+	padding: 10px;
+}
+.main-block .header ul{
+	text-align: right;
+} 
+
+.main-block .header li {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.main-block .header a {
+	font-size: 12px;
+} 
+
+.main-block .header .menu-block {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #808000;
+	
+}
+.main-block .header .menu-block a {
+	font-size: 14px;
+}
+.main-block .header .menu-block ul {
+	background-color: #EAF6DF;
+}
+
+.main-block .header .menu-block li {
+	display: inline-block;
+	padding-left: 10px;
+	height: 100%;
+	padding: 10px;
+	border-right: 1px solid #808000;
+}
+
+.main-block .header .menu-block .white {
+	background-color: #fff;
+	height: 100%;
+	border-left: 1px solid #808000;
+	border-bottom: none;
+}
+.main-block .header .menu-block .white a{
+	color: #000;
+	text-decoration: none;
+}
+
+.main-block .section {
+	background-color: #FFF;
+	border: 1px solid #808000;
+	border-top: none;
+}
+
+
+
+
+
+
+.main-block .section .information {
+	padding: 20px;
+	line-height: 1.8;
+}
+
+.first-inform-block {
+	display: flex;
+}
+.first-inform-block .bird {
+	padding-top: 5px;
+	width: 810px;
+	height: 248px;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+
+.first-inform-block .bird img {
+	width: 220px;
+}
+
+.first-inform-block .bird p {
+	text-align: left;
+	font-size: 12px;
+	padding-left: 7px;
+}
+
+.main-block .section .information .descr {
+	font-size: 12px;
+}
+
+.main-block .section .information .one-block {
+	padding-bottom: 20px;
+	
+}
+
+.main-block .section .information .one-block .text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main-block .section .information .one-block .content {
+	width: 195px;
+	background-color: #DCDCDC;
+	border: 1px solid #a2a9b1;
+	font-size: 13px;
+	padding: 10px 0px 10px 20px;
+}
+
+.main-block .section .information .one-block .content .name {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.main-block .section .information .one-block h2 {
+	font-weight: normal;
+}
+
+.main-block .section .information .one-block .code-block {
+	background-color: #DCDCDC;
+	line-height: 1.3;
+	border: 1px solid #eaecf0;
+	padding: 20px;
+}
+
+.main-block .section .information .one-block ul {
+	padding-left: 30px;
+}
+.main-block .section .information .one-block .list {
+	padding-left: 50px;
+	
+}
+
+.main-block .section .information .navbox {
+	 border: 1px solid #a2a9b1;
+	 text-align: center;
+}
+
+.main-block .section .information .navbox h4 {
+	background-color: #8FBC8F;
+}
+
+
+
+.main-block .section .information .navbox ul li {
+	display: inline-block;
+	font-size: 13px;
+	position: relative;
+	margin-right: 10px;
+}
+
+.main-block .section .information .navbox li::after {
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #000;
+	top: 10px;
+	right: -8px;
+}
+
+.main-block .section .information .navbox li:last-child::after {
+	width: 0;
+	height: 0;
+}
+
+.main-block .section .information .navbox ul li a {
+	color: red;
+}
+
+.main-block .section .information .otherlinks {
+	 border: 1px solid #a2a9b1;
+	 margin-top: 20px;
+	 padding: 10px;
+}
+
+.main-block .section .information .otherlinks a {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right: 1px solid #a2a9b1;
+}
+
+.main-block .section .information .otherlinks a:first-child {
+	border-right: none;
+}
+.main-block .section .information .otherlinks a:last-child {
+	border-right: none;
+}
+
+.footer {
+	margin-left: 170px;
+	font-size: 11px;
+	padding: 20px;
+}
+
+.footer p {
+	margin-bottom: 10px;
+}
+
+.footer li {
+	display: inline-block;
+	margin-right: 10px;
+}
